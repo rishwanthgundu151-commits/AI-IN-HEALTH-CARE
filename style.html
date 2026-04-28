@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Healthcare Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav aria-label="Main Navigation">
+        <h1>AI Health Assistant</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#chat">Chat</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section id="home" class="hero">
+    <h2>Your AI Health Assistant</h2>
+    <p>Get instant health guidance powered by AI.</p>
+    <button type="button" onclick="scrollToChat()">Start Chat</button>
+</section>
+
+<section id="about">
+    <h2>About</h2>
+    <p>This AI Healthcare Assistant helps users get quick medical guidance.</p>
+</section>
+
+<section id="features">
+    <h2>Features</h2>
+    <div class="features-container">
+
+        <article class="card">
+            <img src="https://via.placeholder.com/100" alt="AI assistant">
+            <h3>AI Chat</h3>
+            <p>Talk to an intelligent assistant.</p>
+        </article>
+
+        <article class="card">
+            <img src="https://via.placeholder.com/100" alt="Health tips">
+            <h3>Health Tips</h3>
+            <ul>
+                <li>Stay hydrated</li>
+                <li>Exercise regularly</li>
+                <li>Eat balanced meals</li>
+            </ul>
+        </article>
+
+        <article class="card">
+            <img src="https://via.placeholder.com/100" alt="Security">
+            <h3>Secure</h3>
+            <p>Your data is protected.</p>
+        </article>
+
+    </div>
+</section>
+
+<section id="chat">
+    <h2>Chat Assistant</h2>
+    <div id="chatBox" aria-live="polite"></div>
+
+    <form id="chatForm">
+        <label for="userInput">Enter message:</label>
+        <input type="text" id="userInput" name="userInput" required>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Submit</button>
+
+    </form>
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 AI Healthcare Assistant</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
